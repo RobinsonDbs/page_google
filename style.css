@@ -1,0 +1,22 @@
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+header
+{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.gmail
+{
+  margin: 10px;
+}
