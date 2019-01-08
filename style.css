@@ -1,96 +1,181 @@
-#body
-{
-  
-  width: auto;
-  height: auto;
-
-}
-
-.bouton
-{
-  color: white;
-  margin: 10px;
-  font-weight: bold;
-  background-color: blue;
-  font-weight: bold
-}
-
-a
-{
-  
-  color: black;
-  text-decoration: none;
-
-}
-
-a:hover
-{
- 
-  text-decoration: underline;
-}
-
 header
 {
-  
-
   display: flex;
   justify-content: flex-end;
   margin-right: 10px;
 }
 
-.gmail
+#body
 {
-  margin: 10px;
+  width: auto;
+  height: auto;
 }
 
+.marginheader
+{
+  margin: 10px;
+  color: black;
+}
+.icone {
+  width: 40px;
+  height:40px;
+}
+
+.boutonconnexion
+{
+  color: white;
+  margin: 10px;
+  padding: 08px;
+  font-weight: bold;
+  background-color: blue;
+  font-weight: bold
+}
+
+#btnconnexion
+{
+  color: white;
+  text-decoration: none;
+}
 
 #google
 {
-  
-
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 650px;
 }
 
-.images
-{
-  max-height: 100px;
-  max-width: 200px;
 
+.reduireimg
+{
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.decosearchbar
+{
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+}
+
+.sizeimg
+{
+  max-height: 30px;
+  max-width: 30px;
 }
 
 .searchbar
 {
-  width: 350px;
+  width: 450px;
+  padding: 10px;
+  border: 1px solid #ECEFF1;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
 
+.marginbouton
+{
+  margin: 20px;
 }
 
 
+
+.styleboutonrecherche
+{
+  background-color: #ECF0F1;
+  padding: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: grey;
+}
+
+.styleboutonrecherche:hover
+{
+  background-color: #ECF0F1;
+  padding: 10px;
+  margin-left: 10px;
+  color: black;
+  font-weight: bold;
+  border 1px;
+  border-color: black;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+.marginheader:hover
+{
+  text-decoration: underline;
+}
+
+footer{
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  left: 0;
+  right: 0;
+
+}
+
 #footer1
 {
-  
+  padding: 5px;
+  height:30px;
+  background-color: #ECF0F1;
+}
 
+.france
+{
+padding: 5px;
+color: grey;
 }
 
 #footer2
 {
-  
-
+  height:30px;
+  background-color: #ECF0F1;
   margin: 0;
+  padding-top: 5px;
   display: flex;
   justify-content: space-between;
+  color: grey;
 }
 
-.lien1
+.liendroitefooter
 {
-  
+  color: grey;
+  margin: 10px;
+  padding: 5px;
+  justify-content: space-around;
 }
 
-.lien2
+.liengauchefooter
 {
-  display: flex;
-  justify-content: flex-end;
+  margin: 10px;
+  color: grey;
+  justify-content: space-around;
+}
+
+.liendroitefooter:hover
+{
+  margin: 10px;
+  color: grey;
+  text-decoration: underline;
+}
+
+.liengauchefooter:hover
+{
+  margin: 10px;
+  color: grey;
+  text-decoration: underline;
+}
+
+hr
+{
+  margin: 0;
+  color: #E4E4E4;
 }

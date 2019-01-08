@@ -7,46 +7,49 @@
     </head>
 
     <body id="body">
+
        <header>
-        <a href="https://www.google.com/intl/fr/gmail/about/#" class="gmail">Gmail</a>
-        <a href="https://www.google.fr/imghp?hl=fr&tab=wi" class="gmail">Images</a>
-        <img src="images/mosaique.jpg" alt="Photo mosaique" title="Applications Google" class="gmail">
-        <button class="bouton"><a href="https://accounts.google.com/signin/v2/identifier?hl=fr&passive=true&continue=https%3A%2F%2Fwww.google.fr%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Connexion</a></button>
+        <a href="https://www.google.com/intl/fr/gmail/about/#" class="marginheader">Gmail</a>
+        <a href="https://www.google.fr/imghp?hl=fr&tab=wi" class="marginheader">Images</a>
+        <img class="icone" src="images/mosaique.jpg" alt="Photo mosaique" title="Applications Google" />
+        <button class="boutonconnexion"><a id="btnconnexion" href="https://accounts.google.com/signin/v2/identifier?hl=fr&passive=true&continue=https%3A%2F%2Fwww.google.fr%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Connexion</a></button>
        </header>
-       
-       
+
+
 
        <div id="google">
-         <div>
-           <img src="images/google.png" alt="Google" class="images">
-         </div>
-         <div>
-           <input class="searchbar" type="text" placeholder=" ">
-         </div>
-         <div>
-           <button><a href="https://www.thehackingproject.org/">Recherche Google</a></button>
-           <button><a href="https://www.google.com/doodles">J'ai de la chance</a></button>
+          <div>
+            <img src="images/google.png" alt="Google" class="reduireimg">
+          </div>
+          <div class="decosearchbar">
+            <div><input class="searchbar" type="text" placeholder=" "></div>
+            <div><img class="sizeimg" src="https://slack-imgs.com/?c=1&url=http%3A%2F%2Fwww.mobileworld.it%2Fwp-content%2Fuploads%2F2015%2F09%2Fmicrofono-google.png" /></div>
+          </div>
+         <div class="marginbouton">
+           <button class="styleboutonrecherche"><a class="styleboutonrecherche" href="https://www.thehackingproject.org/">Recherche Google</a></button>
+           <button class="styleboutonrecherche"><a class="styleboutonrecherche" href="https://www.google.com/doodles">J'ai de la chance</a></button>
          </div>
        </div>
 
-       
 
-       <footer id="footer1">
-        <p>France</p>
-       </footer>
-
-       <footer id="footer2">
-         <div class="lien1">
-         <a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicité</a>
-         <a href="https://www.google.fr/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Entreprise</a>
-         <a href="https://www.google.fr/intl/fr_fr/about/?utm_source=google-FR&utm_medium=referral&utm_campaign=hp-footer&fg=1">À propos</a>
-       </div>
-       <div class="lien2">
-         <a href="https://support.google.com/websearch/answer/7585859?p=fr_consumer_info&hl=fr&fg=1&sa=X&ved=0ahUKEwja8O_1ht7fAhUQQRoKHfLjAwcQ9NMDCA8&visit_id=636825435010847996-945199836&rd=1">Info consommateurs</a>
-         <a href="https://policies.google.com/privacy?hl=fr&gl=fr">Confidentialité</a>
-         <a href="https://policies.google.com/terms?hl=fr&gl=fr">Conditions</a>
-         <a href="">Paramètres</a>
-       </div>
-       </footer>
+     <footer>
+        <div id="footer1">
+          <span class="france">France</span>
+        </div>
+        <hr>
+         <div id="footer2">
+           <div>
+           <a class="liengauchefooter" href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicité</a>
+           <a class="liengauchefooter" href="https://www.google.fr/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Entreprise</a>
+           <a class="liengauchefooter" href="https://www.google.fr/intl/fr_fr/about/?utm_source=google-FR&utm_medium=referral&utm_campaign=hp-footer&fg=1">À propos</a>
+          </div>
+           <div>
+             <a class="liendroitefooter" href="https://support.google.com/websearch/answer/7585859?p=fr_consumer_info&hl=fr&fg=1&sa=X&ved=0ahUKEwja8O_1ht7fAhUQQRoKHfLjAwcQ9NMDCA8&visit_id=636825435010847996-945199836&rd=1">Info consommateurs</a>
+             <a class="liendroitefooter" href="https://policies.google.com/privacy?hl=fr&gl=fr">Confidentialité</a>
+             <a class="liendroitefooter" href="https://policies.google.com/terms?hl=fr&gl=fr">Conditions</a>
+             <a class="liendroitefooter" href="">Paramètres</a>
+           </div>
+         </div>
+     </footer>
     </body>
 </html>
