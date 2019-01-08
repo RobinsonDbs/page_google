@@ -1,13 +1,25 @@
-html
+#body
 {
-height: 100%;
-  }
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+
+}
+
+.bouton
+{
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+  background-color: blue;
+}
 
 a
 {
   border: 1px;
   border-style: solid;
   border-color: black;
+
   text-decoration: none;
   color: black;
 }
@@ -17,6 +29,7 @@ a:hover
   border: 1px;
   border-style: solid;
   border-color: black;
+
   text-decoration: underline;
 }
 
@@ -25,6 +38,7 @@ header
   border: 1px;
   border-style: solid;
   border-color: black;
+
   display: flex;
   justify-content: flex-end;
   margin-right: 10px;
@@ -40,6 +54,7 @@ header
   border: 1px;
   border-style: solid;
   border-color: black;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,31 +73,25 @@ header
   border: 1px;
   border-style: solid;
   border-color: black;
+
   margin: 0;
   display: flex;
   justify-content: space-between;
 }
 
-#lien1
+.lien1
 {
   border: 1px;
   border-style: solid;
   border-color: black;
 }
 
-#lien2
+.lien2
 {
   border: 1px;
   border-style: solid;
   border-color: black;
+
   display: flex;
   justify-content: flex-end;
-}
-
-#body
-{
-  border: 1px;
-  border-style: solid;
-  border-color: black;
-  height: 100vh;
 }
